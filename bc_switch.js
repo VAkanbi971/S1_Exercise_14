@@ -5,8 +5,8 @@
    Tutorial 12
    Tutorial Case
 
-   Author: 
-   Date:   
+   Author: Victor Akanbi
+   Date:   3.28.19
 
    Filename: bc_switch.js
    
@@ -16,4 +16,3 @@
    view and page view
    
 */
-
