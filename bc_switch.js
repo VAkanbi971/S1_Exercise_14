@@ -81,7 +81,7 @@ function setupStyles() {
         webButton.onclick = function() {
             pageStyle.disabled = true;
         }
-}
+        
         pageButton.onclick = function() {
             pageStyle.disabled = true;
         }
