@@ -77,12 +77,12 @@ function setupStyles() {
             } \
         }", 2);
 
-        //turn the page veiw style off and on
-        webButton.onclick = function() {
-            pageStyle.disabled = true;
-        }
-        
-        pageButton.onclick = function() {
-            pageStyle.disabled = true;
-        }
+    //turn the page veiw style off and on
+    webButton.onclick = function () {
+        pageStyle.disabled = true;
+    }
+
+    pageButton.onclick = function () {
+        pageStyle.disabled = false;
+    };
 }
