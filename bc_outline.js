@@ -66,7 +66,12 @@ function createList(source, outlineList) {
                         n.setAttribute("id", "head" + headNum);
                   }
                   var listElem = document.createElement("li");
-                  listElem.innerHTML = n.firstChild.nodeValue;
+
+                  var listElem = document.createElement("a");
+                  listElem.innerHTML = n.innerHTML;
+                  listElem.setAttribute("href", "#" + n.id);
+
+
                   if (headLevel === prevLevel) {
                         //append the list item to the current list
                         outlineList.appendChild(listElem);
